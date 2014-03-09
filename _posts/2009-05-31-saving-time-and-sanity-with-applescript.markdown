@@ -18,7 +18,7 @@ After many searches I came across [exactly what I was looking for.](http://www.j
 
 ## Usage
 
-1. [Download the script](/attachments/home-layout.scpt)
+1. [Download the script](/assets/home-layout.scpt)
 2. Open it with Script Editor
 3. Remove references to applications you aren't using
 4. Save as an application with the name of the layout in the Applications fold

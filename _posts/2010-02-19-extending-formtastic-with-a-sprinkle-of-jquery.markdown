@@ -42,7 +42,7 @@ Given the two models above, from the users edit screen, we may want to allow the
 <% end %>
 {% endhighlight %}
 
-![roles check boxes](/attachments/roles_check_boxes.png)
+![roles check boxes](/assets/roles_check_boxes.png)
 
 Voila! Formtastic handles everything for you, rendering each of the roles as a check box.
 
@@ -60,7 +60,7 @@ Now imagine you wanted a view that listed every user in a certain role, allowing
 <% end %>
 {% endhighlight %}
 
-![users multiselect](/attachments/users_multiselect.png)
+![users multiselect](/assets/users_multiselect.png)
 
 No one likes standard multi-select boxes except lazy developers. I’ve watched my parents try and operate them and they never know what key to press when selecting. They inevitably end up using shift and selecting everything or they stop holding control and deselect everything. It sucks, it happens to me too, just less often. Now I’m giving you no excuse to use this technique if you’re using formtastic and jquery.
 
@@ -111,4 +111,4 @@ and you get unobtrusive, gracefully degrading, easy to use multi-select controls
 
 Here’s an example from RecruitMilitary that we use with some extra styling applied. You can really see how when you have a big list like the one below why something beyond standard html controls are necessary.
 
-![combo select](/attachments/combo_select.png)
+![combo select](/assets/combo_select.png)
