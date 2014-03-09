@@ -1,3 +1,4 @@
 name: diminishing.org
 markdown: redcarpet
 pygments: true
+production_url: http://diminishing.org
