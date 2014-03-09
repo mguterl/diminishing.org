@@ -3,6 +3,7 @@ layout: post
 title: "Problems, difficulties, and frustrations"
 date: 2009-06-08 22:02
 categories: simplicity
+permalink: "problems-difficulties-and-frustrations"
 ---
 
 After reading [The Simplest Thing that Could Possibly Work](http://www.artima.com/intv/simplestP.html) I couldn’t stop thinking about how Ward Cunningham describes the difference between problems and difficulties.

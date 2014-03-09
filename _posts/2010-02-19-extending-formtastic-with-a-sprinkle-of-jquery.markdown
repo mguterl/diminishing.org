@@ -3,6 +3,7 @@ layout: post
 title: Extending Formtastic with a sprinkle of jQuery
 date: 2010-02-19 20:45:00
 categories: rails formtastic jquery
+permalink: "extending-formtastic-with-a-sprinkle-of-jquery"
 ---
 
 ## Introducing Formtastic

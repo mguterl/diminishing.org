@@ -3,6 +3,7 @@ layout: post
 title: "Fixing a mistake with attr_accessible"
 date: 2010-11-20 10:00
 categories: rails
+permalink: "fixing-a-mistake-with-attr_accessible"
 ---
 
 It can happen to anyone, you're being a [good Rails citizen](http://news.ycombinator.com/item?id=1718438) and you have setup ActiveRecord to force the use of attr_accessible by using:

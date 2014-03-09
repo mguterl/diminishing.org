@@ -3,6 +3,7 @@ layout: post
 title: "runit and delayed_job"
 date: 2010-01-16 19:40
 categories: delayed_job runit
+permalink: "runit-and-delayed-job"
 ---
 
 ## Back story

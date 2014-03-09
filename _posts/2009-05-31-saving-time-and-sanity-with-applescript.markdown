@@ -3,6 +3,7 @@ layout: post
 title: "Saving time and sanity with AppleScript"
 date: 2009-05-31 12:15
 categories: applescript
+permalink: "saving-time-and-sanity-with-applescript"
 ---
 
 Depending where I am at I have three possible monitor configurations for my MacBook.

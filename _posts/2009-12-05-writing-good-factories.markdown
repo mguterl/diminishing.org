@@ -3,6 +3,7 @@ layout: post
 title: "Writing Good Factories"
 date: 2009-12-05 12:37
 categories: ruby testing
+permalink: "writing-good-factories"
 ---
 
 I really wanted to remember what Pratik had to say about writing good factories in his Rails Summit talk so I’m putting it up here as a reference.

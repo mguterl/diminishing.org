@@ -3,6 +3,7 @@ layout: post
 title: "require 'spec_helper'"
 date: 2009-12-05 12:59
 categories: ruby
+permalink: "require-spec-helper"
 ---
 
 ## UPDATE 2013-04-06
