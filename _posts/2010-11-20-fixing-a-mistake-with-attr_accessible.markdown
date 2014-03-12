@@ -43,7 +43,7 @@ file_format = RequestLogAnalyzer::FileFormat.load("rails", :all)
 parser      = RequestLogAnalyzer::Source::LogParser.new(file_format, :source_files => ENV["SOURCE_FILES"])
 
 parser.each_request do |request|
-  if request[:controller] == "UsersController" &amp;&amp; request[:action] == "create"
+  if request[:controller] == "UsersController" && request[:action] == "create"
     do_something request[:params]
   end
 end
