@@ -18,8 +18,6 @@ end
 
 Next thing you know, you add a name attribute to your user model, update the forms and other views, deploy and you're on your way.  Days go by and someone asks, why don't any of our users have names?  SHIT!  You forgot to update your the user model's attr_accessible line.
 
-[Skip to the solution](#solution)
-
 ## Background
 
 Something similar happened to us only days before launching [http://board.recruitmilitary.com](http://board.recruitmilitary.com).  Our support staff was setting up existing customers on our new platform and a piece of associated data they had entered during setup was missing.  I quickly realized I forgot to add the attribute to attr_accessible on the model and something had to be done.
@@ -35,8 +33,6 @@ Option #1 is just not possible, our support staff had created over 300 instances
 That leaves us with option #3, but I had no idea what I was looking for exactly.  Google revealed a few different options, the most interesting being [request-log-analyzer].  I had used it before, but only as it was intended for analyzing data in our production.log and mysql-slow.log.
 
 ## Solution
-
-<a name="solution" />
 
 It turns out that [request-log-analyzer] has many different abstractions and it's not immediately obvious how to just get a parsed representation of requests.  After some reading and experimentation I came up with this:
 
