@@ -1,4 +1,4 @@
 name: diminishing.org
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 production_url: http://diminishing.org
