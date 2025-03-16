@@ -16,7 +16,7 @@
 ## Design Guidelines
 - **Simplicity**: Single page design with minimal elements
 - **Colors**: Dark gray background (#222222), pale white text (#e6e6e6), softer orange accents (#e67e22)
-- **Typography**: Clean font stack with good readability
+- **Typography**: Berkeley Mono with fallbacks to SF Mono, Menlo, Monaco, etc.
 - **Spacing**: Generous whitespace between sections
 - **Social Icons**: FontAwesome for GitHub, LinkedIn, and Mastodon links
 

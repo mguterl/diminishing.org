@@ -5,6 +5,9 @@ module.exports = function(eleventyConfig) {
   // Copy `src/css/` to `_site/css/`
   eleventyConfig.addPassthroughCopy("src/css");
   
+  // Copy fonts directory to output
+  eleventyConfig.addPassthroughCopy({ "fonts": "fonts" });
+  
   // Add a shortcode for the current year
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
 
