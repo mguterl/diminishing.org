@@ -3,38 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{% if title %}{{ title }} | {% endif %}Mike Guterl</title>
+  <title>Mike Guterl</title>
   <link rel="stylesheet" href="/css/style.css">
   <script src="https://kit.fontawesome.com/46e81d603e.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <header>
-    <div class="container">
-      <div class="logo">
-        <a href="/">MG</a>
-      </div>
-      <nav>
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/about/">About</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <main class="container">
-    {{ content | safe }}
-  </main>
-
+  {{ content | safe }}
+  
   <footer>
-    <div class="container">
-      <p>&copy; {% year %} Mike Guterl</p>
-      <div class="social-links">
-        <a href="https://github.com/mguterl" title="GitHub"><i class="fab fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/mikeguterl/" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-        <a href="https://mastodon.social/@mguterl" title="Mastodon"><i class="fab fa-mastodon"></i></a>
-      </div>
-    </div>
+    <p>&copy; {% year %} Mike Guterl</p>
   </footer>
 </body>
 </html>
