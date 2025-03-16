@@ -53,11 +53,15 @@ body {
   background-color: var(--dark-gray);
   color: var(--pale-white);
   line-height: 1.6;
-  padding: 2rem 1rem;
+  padding: 15vh 1rem;
   max-width: 650px;
   margin: 0 auto;
   font-size: 15px;
   letter-spacing: -0.01em;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 /* Content styles */
@@ -132,10 +136,6 @@ a:hover {
   opacity: 1;
 }
 
-section {
-  margin: 2.5rem 0;
-}
-
 ul {
   list-style-position: inside;
   margin-bottom: 1.5rem;
@@ -143,12 +143,4 @@ ul {
 
 li {
   margin-bottom: 0.5rem;
-}
-
-footer {
-  margin-top: 4rem;
-  border-top: 1px solid var(--orange);
-  padding-top: 1.5rem;
-  font-size: 0.9rem;
-  opacity: 0.8;
 }
