@@ -15,7 +15,7 @@
 
 ## Design Guidelines
 - **Simplicity**: Single page design with minimal elements
-- **Colors**: Dark gray background (#1a1a1a), pale white text (#f0f0f0), orange accents (#ff6a00)
+- **Colors**: Dark gray background (#222222), pale white text (#e6e6e6), softer orange accents (#e67e22)
 - **Typography**: Clean font stack with good readability
 - **Spacing**: Generous whitespace between sections
 - **Social Icons**: FontAwesome for GitHub, LinkedIn, and Mastodon links
