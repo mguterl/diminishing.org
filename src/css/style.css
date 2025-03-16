@@ -111,29 +111,26 @@ a:hover {
 
 .social-links {
   display: flex;
-  gap: 1.5rem;
-  margin: 2rem 0;
-  font-size: 1rem;
+  gap: 2.5rem;
+  margin: 2.5rem 0;
   justify-content: flex-start;
 }
 
 .social-links a {
   color: var(--pale-white);
-  transition: color 0.2s ease;
+  transition: all 0.2s ease;
   border-bottom: none;
-  opacity: 0.85;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
+  opacity: 0.8;
 }
 
 .social-links a i {
-  font-size: 1.4rem;
+  font-size: 2.2rem;
 }
 
 .social-links a:hover {
   color: var(--orange);
   opacity: 1;
+  transform: translateY(-2px);
 }
 
 ul {
